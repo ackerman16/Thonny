@@ -1,8 +1,10 @@
-#Estado del agua
-= int(input("Temperatura:"))
-if temperatura > 100:
-    print("El estado del agua será gaseoso")
-elif temperatura < 0:
-    print("El estado del agua será solido")
+#Categoría
+edad = int(input("Edad:"))
+if edad < 7:
+    print("Benjamín")
+elif edad >7 <9:
+    print("Alevín")
+elif edad >10 <12:
+    print("Infantil")
 else:
-    print("El estado del agua será líquido")
+    print("Cadete")
